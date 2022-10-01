@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["main",""]],"struct":[["Animal","Animal being is represented here"],["Cat","Cat represented is here, it purrs… awww"],["Dog","Woof! Woof!"]],"trait":[["Say","Every animal says something, didn’t it? Shared behavior for all animals"]]};
