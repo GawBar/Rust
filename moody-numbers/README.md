@@ -3,7 +3,7 @@
 
 Some people are just moody, you just cannot reason with them. Same goes with Natural Numbers. Some of them ultimely want to become 1 or 4 and will evolve infinite times if they have to, to become what they want to. To evolve, they use a function F such that N = F(N). Function F(N) is defined as :
 
-![equation](https://latex.codecogs.com/png.image?\inline&space;\LARGE&space;\dpi{110}\bg{black}F(N)&space;=&space;sum\\_of\\_digits(N^2))
+$F(N) = sum\_of\_digits(N^2)$
 
 So, your task is that given a number N, output if it is possible for it to ultimately become {1 or 4} or not.
 
@@ -15,11 +15,11 @@ T lines follow each with an integer N.
 ## Output:
 
 For each N output "YES" or "NO" if the number can achieve desired goal or not.
-Constraints:
+
+### Constraints:
 
     1 ≤ T ≤ 106
     1≤ N ≤ 109
-
 
 
 ### Sample Input:
