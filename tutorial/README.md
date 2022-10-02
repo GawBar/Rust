@@ -12,4 +12,6 @@
 
 ### [Documentation](src/bin/doc.rs)
 
-### [Variables](src/bin//variables.rs)
+### [Variables](src/bin/variables.rs)
+
+### [Scope and shadowing](src/bin/scope.rs)
