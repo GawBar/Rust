@@ -3,7 +3,7 @@
 // Scope of a variable means, that variable has visibility and access to parts 
 // of program. It depends where variable is declared
 //
-// There are two types ov variables:
+// There are two types of variables:
 //  - global variables
 //  - local variables
 //
