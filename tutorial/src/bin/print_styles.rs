@@ -1,13 +1,11 @@
-/*
-    *** Printing styles ***
-    
-    There are macros:
-        print! - prints string to screen
-        println! - same as print! but adds new line on end
-        eprint! - prints string to screen as error
-        eprintln! - same as eprint! but adds new line on end
-*/
-
+//////////////////////////////// Printing styles ///////////////////////////////
+// 
+// There are macros:
+//  print! - prints string to screen
+//  println! - same as print! but adds new line on end
+//  eprint! - prints string to screen as error
+//  eprintln! - same as eprint! but adds new line on end
+//
 fn main() {
     // print!
     print!("This is ");

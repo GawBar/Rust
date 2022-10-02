@@ -1,8 +1,11 @@
 //! An explanation of rustdoc on simple example with structs
 //! 
 //! Created some animals
-//! 
-
+//!
+//
+// Generation of doc:
+//  > cargo doc --open
+//
 /// Every animal says something, didn't it?
 /// Shared behavior for all animals
 trait Say {

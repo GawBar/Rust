@@ -1,21 +1,17 @@
-/*
-    *** Comments ***
-    
-    There are comments like:
-        //      - line comment
-        /* */   - block comment
-
-        ///     - doc line comment
-        /** */  - doc block comment
-
-        //!     - inner doc comment
-        /*! */  - inner doc block comment
-
-    You can use Markdown notation in doc
-    
-    Generation of doc:
-        > cargo doc --open
-*/
+/////////////////////////////////// Comments ///////////////////////////////////
+// 
+// There are comments like:
+//  // ...      - line comment
+//  /* ... */   - block comment
+//
+//  /// ...     - doc line comment
+//  /** ... */  - doc block comment
+//
+//  //! ...     - inner doc comment
+//  /*! ... */  - inner doc block comment
+//
+// You can use Markdown notation in doc
+//
 
 //! Hello World program
 
