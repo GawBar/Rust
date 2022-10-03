@@ -4,7 +4,10 @@
 // # Initialize variable
 // # Mutability
 // # Assigning multiple variables
+// # Constant variables
 //
+const LANG: &str = "Rust";
+
 fn main() {
     // Create variable
     //
@@ -55,4 +58,21 @@ fn main() {
 
     let (name, surname) = ("James", "Bond");
     println!("My name is {1}. {0} {1}", name, surname);
+
+    // Constant variables
+    //
+    // By convention, you should a constant variable name in:
+    //  - all letters should be UPPER case.
+    //  - all words should be separated using an underscore ( _ ).
+    // 
+    // Variables that are declared constant cannot be modified
+    // Differences between const and let:
+    //  - are declared using const keyword
+    //  - cannot be mutable
+    //  - it is mandatory to define data type, see [Data types]
+    //  - can be declared in global and local scope, see [Scope and shadowing]
+    //  - cannot be shadowed, see [Scope and shadowing]
+    //
+    const LANG2: &str = "C++";
+    println!("LANG: {} LANG2: {}\n", LANG, LANG2);
 }
