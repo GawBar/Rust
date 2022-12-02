@@ -1,18 +1,12 @@
 #[allow(dead_code)]
+#[allow(unused_imports)]
 
-fn lettersum(string: &str) -> i32 {
-    let mut sum  = 0;
-    
-    for letter in string.chars() {
-        sum += letter as i32 - 96;
-    }
-
-    return sum;
-}
+mod lettersum;
 
 #[cfg(test)]
 mod tests {
     use super::*;
+    use lettersum::lettersum;
 
     #[test]
     fn it_works() {
